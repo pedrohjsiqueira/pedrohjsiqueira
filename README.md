@@ -22,17 +22,6 @@ Analista de Tecnologia e Processos em uma holding de energia · Administração 
 | [**extrator-contas-energia**](https://github.com/pedrohjsiqueira/extrator-contas-energia) | Robô que coleta contas de energia no portal da distribuidora, recalcula cada uma, importa no ERP e confere o cálculo. Só o que diverge vai para auditoria humana. 5 etapas, 173 testes | Python · Playwright · systemd |
 | [**n8n-etl-graphql-notion**](https://github.com/pedrohjsiqueira/n8n-etl-graphql-notion) | Arquitetura de ETL com orquestrador e 12 subfluxos que sincronizam entidades relacionadas de uma API GraphQL com o Notion, respeitando o grafo de dependências | n8n · GraphQL · Notion API |
 
-### Como eu construo
-
-- **Nunca estimar.** Caso fora da regra vira exceção com motivo, não chute.
-- **O robô sinaliza, a pessoa decide.** Automação que escreve o mínimo e deixa a decisão sensível com quem é responsável por ela.
-- **Rodar duas vezes não pode estragar nada.** Idempotência, registro do que já foi feito e travas antes de qualquer escrita.
-- **Se não está documentado, não está pronto.** README, diagrama e um jeito claro de alguém continuar o trabalho.
-
-### Antes da tecnologia
-
-Venho de inovação e empreendedorismo: organizei hackathons e programas de pré-aceleração na UNIFEI e no Governo de Minas, coordenei mais de 300 voluntários no HackTown e estive por trás de eventos como Startup Weekend, TEDx e NASA Space Apps. Por isso começo pelo problema de quem usa e só depois escolho a ferramenta.
-
 ### Stack
 
 `Python` `Playwright` `n8n` `SQL (MariaDB, PostgreSQL)` `GraphQL` `Notion API` `MCP (FastMCP)` `Docker` `Linux / systemd` `Git` `Power BI`
